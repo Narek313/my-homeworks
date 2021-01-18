@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    min-width: 1000px;
+    min-height: 800px;
+}
+
+div {
+    display: inline-block;
+    height: 350px;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.678);
+    margin: 15px;
+}
+
+input,
+p {
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#submit {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red;
+}
+
+label {
+    font-size: 20px;
+    color: rgb(0, 183, 255);
+}
+
+input {
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.box2 {
+    transform: translate(500px, -244px);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(21, 255, 0);
+    font-size: 50px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 50px;
+}
+
+p {
+    color: rgb(0, 183, 255);
+    font-size: 20px;
+    display: block;
+}
+.red{
+    text-decoration: red wavy underline;
+}

@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f3363;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    margin: 150px auto;
+    min-height: 320px;
+    padding: 20px 50px;
+    height: auto;
+}
+
+.main > div {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.wrapper{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart {
+    width: 100%;
+    background-color: #DF605B;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapper > h3{
+    text-align: left;
+    width:100% ;
+    color: #DF605b;
+    margin-bottom: 30px;
+}
+
+.wrapper-items{
+    width: 100%;
+    padding: 10px;
+    min-height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px solid grey;
+}
+
+.wrapper-items img {
+    width: 70px;
+    height: 70px;
+    outline: 2px solid grey;
+    outline-offset: 7px;
+}
+.W-title h3 ,
+.W-title p 
+{
+    margin: 0;
+}
+
+.W-title h3{
+    color: blue;
+}
+
+.W-title p{
+    color: black;
+    font-weight: bold;
+}
+
+.W-title{
+    margin-left: 40px;
+}
+
+.W-deleter{
+    border: 2px solid blue;
+    width:15px ;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: auto;
+    align-self: center;
+    margin-right: 30px;
+    cursor: pointer;
+    
+}
+
+.W-deleter span{
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+    left: 3px;
+    font-size: 13px;
+    color: blue;
+}
+
+.total-section {
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Checkout{
+    background-color: #DF605b;
+    color: #f3f3f3;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.total-section h2{
+    color: blue;
+}
+
+.total-section span{
+    color: red;
+}
+
+.add{
+    background-color: #fff;
+	color:#DF605B;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

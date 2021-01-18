@@ -1,0 +1,107 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(45deg, blue,red);
+    overflow-x: hidden;
+}
+
+.home-icon{
+    color: white;
+    font-size: 30px;
+    height: auto;
+    p{
+        text-align: right;
+        margin-right: 30px;
+        position: relative;
+        bottom:7px;
+    }
+}
+
+.main{
+    width: 425px;
+    height: auto;
+    padding: 35px 25px;
+    margin: 100px auto;
+    background-color: white;
+    
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    p{
+        color: #C3C7CB;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .xxx{
+        color: black;
+
+        span{
+            color: red;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+// form
+
+
+form{
+    margin-top: 25px;
+
+    label{
+        color: #6F7275;
+        font-weight: 600;  
+    }
+
+    input{
+        width: 100%; 
+        outline: none;
+        border: 2px solid rgb(228, 225, 225);
+        padding: 10px 15px;
+        height: 40px;
+        font-weight: 500;
+        border-radius: 5px;
+        margin-top:10px;
+        margin-bottom: 18px;
+        color: rgb(133, 129, 129);
+    }
+
+    #checkbox{
+        height: 20px;
+        width: 15px;
+        margin-right: 10px;
+        position: relative;
+        top: 4px;
+        cursor: pointer;
+    }
+
+    #submit{
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.invalid{
+	input{
+		border: 2px solid red;
+	}
+
+	span{
+		color: red;
+		font-size: 12px;
+		font-weight: bold;
+	}
+}

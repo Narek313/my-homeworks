@@ -1,0 +1,40 @@
+.btn{
+    width: 100%;
+    min-height: 30px;
+    padding: 10px 30px;
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 1px #222;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn-dark{
+    background: #111;
+    color: aqua;
+    border:1px solid white;
+    &:hover{
+        transform:scale(1.025);
+        color:#a44;
+        background:white;
+
+    }
+}
+
+.btn-light{
+    background: white;
+    color:  #a44;
+    border:1px solid #000;
+    &:hover{
+        transform:scale(1.025);
+        color:aqua;
+        background: #111;
+    }
+}
