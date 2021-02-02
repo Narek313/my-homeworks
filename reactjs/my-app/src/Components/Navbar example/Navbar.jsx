@@ -18,7 +18,6 @@ export default function Navbar(props) {
                     <NavLink to="/contact">Contact</NavLink>
                 </li>
             </ul>
-            
         </nav>
     )
 }
